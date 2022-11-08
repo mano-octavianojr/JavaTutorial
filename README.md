@@ -1,1 +1,1 @@
-# JavaTutorial for first year students.
+# Java Tutorial for first year students.
