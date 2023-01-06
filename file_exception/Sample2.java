@@ -6,6 +6,7 @@ import java.io.IOException;
 
 public class Sample2 {
 
+	
     public static void main(String[] args) {
         BufferedReader objReader = null;
         try { // disregard this
@@ -17,6 +18,7 @@ public class Sample2 {
             int line_counter = 0;
             while ((strCurrentLine = objReader.readLine()) != null) {
 
+            	// We are counting how many lines.
                 line_counter++;
                 System.out.println("line " + line_counter + ": " + strCurrentLine);
             }
